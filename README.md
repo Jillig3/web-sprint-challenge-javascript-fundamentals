@@ -26,6 +26,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map - converts data and returns it in a brand new array. A good use case would be pulling a specific key value pair from a larger array.
+.reduce - returns a single value normally uses addition or multiplication. We can use this to see the population of all the biggest cities together from an array that gives the individual city values.
+.filter - filters through data using a boolean. if true then it is added to new array if false it does not go to the new array. We can use this to narrow down arrays for the specific values we want. if we want the largest population cities over 500000 or if we want cities under 100000. We are able to make the argument that best suits our needs.
+
 2. Explain the difference between a callback and a higher order function.
 
 3. Explain what a closure is.
