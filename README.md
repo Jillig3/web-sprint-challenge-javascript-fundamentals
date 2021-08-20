@@ -41,6 +41,11 @@ Closure - When the inner function reaches out of its scope to grav a variable de
 
 4. Describe the four principles of the 'this' keyword.
 
+Window binding - this has no context so it returns the window
+implicit binding - Applies to objects with methods. when the function is invoked look to the left of the dot.
+Explicit binding - We explicitly tell the function what the 'this' keyword refers to. Uses .call, .apply or .bin 
+New binding - When a function is invoked with a new keyword the this keyword inside that function is bound to the new object being constructed. When a function is invoked as a constructor function using the new keyword, this points to the new object that’s create.
+
 5. Why do we need super() in an extended class?
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
