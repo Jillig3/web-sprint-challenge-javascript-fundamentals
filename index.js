@@ -56,11 +56,12 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
   
+
   function animalNames(data){
-    const newNames = data.forEach(function(item){
+    const newNames = [];
+    data.forEach(function(item){
       newNames.push(`name: ${item.animal_name}, scientific: ${item.scientific_name}`);
-    })
-    
+    }) 
     return newNames;
   }
   
@@ -90,9 +91,9 @@ const zooAnimals = [
   */
 
   function lowPopulationAnimals(zooAnimals){
-    zooAnimals.filter(function(item){
+      return zooAnimals.filter(function(item){
       return item.population < 5;
-    })
+    });
   }
   
 
@@ -103,7 +104,7 @@ const zooAnimals = [
   */
 
   function USApop(data){
-    const totalPop = zooAnimals.reduce(function(accumulator, item){
+    return zooAnimals.reduce(function(accumulator, item){
       return accumulator + item.population;
     },0);
   }
