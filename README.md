@@ -37,6 +37,8 @@ Callback Functions - A function that is passed into another function as an argum
 
 3. Explain what a closure is.
 
+Closure - When the inner function reaches out of its scope to grav a variable defined in an outer funciton
+
 4. Describe the four principles of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
