@@ -48,6 +48,8 @@ New binding - When a function is invoked with a new keyword the this keyword ins
 
 5. Why do we need super() in an extended class?
 
+super - Tells us the inherited attributes. It tells our function to look to the parent for them
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
