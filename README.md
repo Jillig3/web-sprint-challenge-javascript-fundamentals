@@ -32,6 +32,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Explain the difference between a callback and a higher order function.
 
+Higher Order Functions - A function that receives other functions 
+Callback Functions - A function that is passed into another function as an argument
+
 3. Explain what a closure is.
 
 4. Describe the four principles of the 'this' keyword.
