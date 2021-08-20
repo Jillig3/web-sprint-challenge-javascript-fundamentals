@@ -18,7 +18,7 @@ myFunction();
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
 
-
+// The nested function is able to reach up into the parent (myFunction) and receive the value that was created at const internal.
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
